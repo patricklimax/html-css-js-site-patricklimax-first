@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: #fff;
+    background:url('bg-bg.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-content {
+    background: rgba(0, 0, 0, .3);
+    backdrop-filter: blur(3px);
+    width: 98%;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.container .log {
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    width: 35px;
+    height: 58px;
+}
+
+
+.text-content-center .text-2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    color: #10B083;
+    text-shadow: 5px 5px 0px #000;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.text-content-center .text-3 {
+    font-size: 1.6rem;
+    line-height: 5.7rem;
+    text-shadow: 2px 2px 0px #000;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.text-content-center .text-3 span {
+    color: #e1e1e6;
+}
+
+/* media-social */
+.media-social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.1rem;
+}
+
+.media-social .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #10B083;
+    border-radius: 15%;
+    outline: 2px solid transparent;
+    background-color: #191919;
+    transition: all .3s;
+    box-shadow: 3px 3px 3px #000;
+}
+
+.media-social .icon:hover {
+    outline-offset: 6px;
+}
+
+.media-social .icon:hover .ico {
+    animation: shake .3s;
+}
+
+.media-social .icon-anima:hover {
+    outline-color: #10B083;
+}
+
+
+@keyframes shake {
+
+    /*animação mediaSocial home*/
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+@media screen and (max-width:599px) {
+    .text-content-center .text-2 {
+        font-size: 3.5rem;
+    }
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text span,
+.footer-text .copy {
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    text-shadow: 1px 1px 0 #000;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.footer-text span a {
+    color: var(--green);
+    text-decoration: none;
+}
+
+ .footer-text .heartPulse {
+    width: 20px;
+    height: 20px;
+    animation: heartpulse 1.2s linear alternate infinite;
+}
+
+@keyframes heartpulse {
+
+    0% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
