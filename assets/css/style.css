@@ -143,7 +143,7 @@ html {
     position: fixed;
     z-index: 99;
     width: 100%;
-    background: url('images/home/bgheader.jpg');
+    background: url('../images/home/bgheader.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -253,7 +253,7 @@ section {
 }
 
 section#home {
-    background: url('images/home/bg1.jpg');
+    background: url('../images/home/bg1.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ section#solution,
 section#portfolio,
 section#price,
 section#contact {
-    background: url('images/home/bg2.jpg');
+    background: url('../images/home/bg2.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -762,43 +762,43 @@ section .content {
 }
 
 #img01 {
-    background: url('images/portfolio/awax.webp') no-repeat;
+    background: url('../images/portfolio/awax.webp') no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 #img02 {
-    background: url('images/portfolio/code.webp') no-repeat;
+    background: url('../images/portfolio/code.webp') no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 #img03 {
-    background: url('images/portfolio/dev1.webp') no-repeat;
+    background: url('../images/portfolio/dev1.webp') no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 #img04 {
-    background: url('images/portfolio/july.webp') no-repeat;
+    background: url('../images/portfolio/july.webp') no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 #img05 {
-    background: url('images/portfolio/pizz.webp') no-repeat;
+    background: url('../images/portfolio/pizz.webp') no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 #img06 {
-    background: url('images/portfolio/sbuck.webp') no-repeat;
+    background: url('../images/portfolio/sbuck.webp') no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 #img07 {
-    background: url('images/portfolio/cardvirtual.webp') no-repeat;
+    background: url('../images/portfolio/cardvirtual.webp') no-repeat;
     background-size: cover;
     background-position: center;
 }
